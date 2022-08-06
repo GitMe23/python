@@ -8,7 +8,10 @@
 
 # TODO: Exceptions provide a way of catching errors and then handling them in 
 # a separate section of the code to group them together
-
+try:
+    x = 10 / 0
+except:
+    print("Whoops")
 
 # TODO: You can also catch specific exceptions
 
