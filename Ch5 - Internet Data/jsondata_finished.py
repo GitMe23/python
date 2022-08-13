@@ -50,7 +50,7 @@ def main():
     # Open the URL and read the data
     webUrl = urllib.request.urlopen(urlData)
     print("result code: " + str(webUrl.getcode()))
-    if (webUrl.getcode() == 200):
+    if webUrl.getcode() == 200:
         data = webUrl.read().decode("utf-8")
         # print out our customized results
         printResults(data)
