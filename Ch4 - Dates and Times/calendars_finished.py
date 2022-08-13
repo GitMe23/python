@@ -8,13 +8,13 @@ import calendar
 
 # create a plain text calendar
 c = calendar.TextCalendar(calendar.SUNDAY)
-str = c.formatmonth(2022, 1, 0, 0)
+str = c.formatmonth(2022, 8, 0, 0)
 print (str)
 
 # create an HTML formatted calendar
 hc = calendar.HTMLCalendar(calendar.SUNDAY)
 str = hc.formatmonth(2022, 1)
-print (str)
+print(str)
 
 # loop over the days of a month
 # zeroes mean that the day of the week is in an overlapping month

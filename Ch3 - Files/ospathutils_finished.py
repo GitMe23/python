@@ -21,6 +21,7 @@ def main():
     
     # Work with file paths
     print ("Item's path: " + str(path.realpath("textfile.txt")))
+    # SPLIT PATH AND FILE IN TO A TUPLE:
     print ("Item's path and name: " + str(path.split(path.realpath("textfile.txt"))))
     
     # Get the modification time
